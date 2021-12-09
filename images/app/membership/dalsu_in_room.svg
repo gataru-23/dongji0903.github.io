@@ -3,22 +3,6 @@
               "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 100 1000 650">
-  <style> .slogan {font-size:30px;font-weight:600;font-family:cursive;transform: skew(-1deg, -15deg);}
-  </style>
-  <defs>
-    <linearGradient id="hanger_gradient" gradientTransform="rotate(50)">
-      <stop offset="50%"  stop-color="black" />
-      <stop offset="90%" stop-color="gray" />
-    </linearGradient>
-    <radialGradient id="light_gradient"
-	  cx="0.5" cy="0.7" r="1" fx="0.65" fy="0.0">
-      <stop offset="0%" stop-color="#ffff8899"/>
-      <stop offset="55%" stop-color="#ffff8800"/>
-    </radialGradient>
-    <radialGradient id="face_gradient"
-	  cx="0.5" cy="0.5" r="1" fx="0.7" fy="0.1">
-      <stop offset="5%" stop-color="white"/>
       <stop offset="20%" stop-color="#ffcca9"/>
     </radialGradient>
     <radialGradient id="sky_gradient"
