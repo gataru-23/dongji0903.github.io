@@ -6,47 +6,7 @@
      viewBox="0 100 1000 650">
   <style> .slogan {font-size:30px;font-weight:600;font-family:cursive;transform: skew(-1deg, -15deg);}
   </style>
-  <defs>
-    <linearGradient id="hanger_gradient" gradientTransform="rotate(50)">
-      <stop offset="50%"  stop-color="black" />
-      <stop offset="90%" stop-color="gray" />
-    </linearGradient>
-    <radialGradient id="light_gradient"
-	  cx="0.5" cy="0.7" r="1" fx="0.65" fy="0.0">
-      <stop offset="0%" stop-color="#ffff8899"/>
-      <stop offset="55%" stop-color="#ffff8800"/>
-    </radialGradient>
-    <radialGradient id="face_gradient"
-	  cx="0.5" cy="0.5" r="1" fx="0.7" fy="0.1">
-      <stop offset="5%" stop-color="white"/>
-      <stop offset="20%" stop-color="#ffcca9"/>
-    </radialGradient>
-    <radialGradient id="sky_gradient"
-	  cx="1" cy="1" r="7" fx="0.8" fy="0.1">
-      <stop offset="0%" stop-color="#346"/>
-      <stop offset="15%" stop-color="#003"/>
-    </radialGradient>
-  </defs>
-  <rect id="floor" x="0" y="500" width="1000" height="250" fill="#303"/>
-  <polygon id="wall_right" fill="#204" points="478,100 478,484 1000,670 1000,100" />
-  <polygon id="wall_left" fill="#408" points="0,100 0,670 479,484 479,100" />
-  <polygon fill="#88a" points="190,170 190,250 380,200 380,120" stroke="#333" stroke-width="2" />
-  <text x="210" y="255" class="slogan">find</text>
-  <text x="250" y="290" class="slogan">S V O C</text>
-  <path id="hanger"
-        fill="#310" stroke="#200" stroke-width="1"
-        d="M 5.67,345.00
-           C 5.67,345.00 149.00,301.33 149.00,301.33
-             149.00,301.33 149.33,329.33 149.33,329.33
-             149.33,329.33 6.67,373.00 6.67,373.00
-             6.67,373.00 5.67,345.00 5.67,345.00 Z" />
-
-  <path id="hat"
-        fill="#2a2346" d="M 65.33,299.33
-           C 106.00,315.33 130.67,381.33 103.33,408.00
-             103.33,408.00 110.00,446.00 94.67,506.00
-             92.08,513.22 95.53,453.87 85.33,441.33
-             83.05,445.33 76.83,455.25 68.67,459.33
+  <defs>59.33
              40.67,473.33 24.67,424.67 33.33,394.00
              42.00,363.33 24.67,283.33 65.33,299.33 Z" />
   <circle id="hat_ball" fill="#2a2346" cx="94" cy="526" r="15" />
@@ -71,38 +31,6 @@
   <polygon id="window_left"
         fill="#003" stroke="#124" stroke-width="2"
         points="702,92 817,125 817,353.17 702,320" />
-   <path id="window_crack_tape"
-        fill="none" stroke="#dd77" stroke-width="8"
-        d="M 754.50,330.00
-           C 754.50,330.00 783.50,303.50 783.50,303.50
-             783.50,303.50 814.50,296.50 814.50,296.50M 813.50,340.25
-           C 813.50,340.25 746.62,269.62 746.62,269.62M 813.75,317.75
-           C 813.75,317.75 794.00,278.50 794.00,278.50
-             794.00,278.50 785.12,222.75 785.12,222.75M 746.12,298.62
-           C 746.12,298.62 764.88,274.25 764.88,274.25M 774.75,247.50
-           C 774.75,247.50 798.75,243.75 798.75,243.75" />
-  <polygon id="sky" fill="url(#sky_gradient)" points="827,128 942,160 942,390 827,356" />
-  <path id="blanket" fill="#325" d="M 680.00,653.00
-           C 665.83,658.50 648.50,688.17 677.00,702.50
-             677.00,702.50 792.00,769.33 839.67,769.33
-             887.33,769.33 999.50,682.17 999.50,682.17
-             1002.43,681.12 1003.83,666.17 998.50,665.50
-             1005.50,663.50 1007.56,624.88 998.83,627.50
-             1005.45,625.64 1005.38,619.17 1000.18,615.27
-             1000.18,615.27 881.67,545.67 825.67,545.67
-             769.67,545.67 680.00,599.00 680.00,599.00
-             673.50,606.83 660.13,630.40 680.00,653.00 Z" />
-  <path id="blanket_patch"
-        fill="#243" stroke="#888" stroke-width="3" stroke-dasharray=".5 3"
-        d="M 713.75,643.00
-           C 713.75,643.00 757.25,658.25 757.25,658.25
-             752.34,650.25 754.25,635.50 790.25,617.50
-             790.25,617.50 751.25,603.38 751.25,603.38
-             713.00,621.50 710.48,634.73 713.75,643.00 Z" />
-  <path id="blanket_patch2"
-        fill="#423" stroke="#999" stroke-width="3" stroke-dasharray=".5 3"
-        d="M 856.75,703.62
-           C 856.75,703.62 926.12,673.00 926.12,673.00
              932.50,682.62 928.91,694.91 925.27,700.00
              925.27,700.00 853.82,736.55 853.82,736.55
              858.55,731.82 864.62,718.38 856.75,703.62 Z" />
